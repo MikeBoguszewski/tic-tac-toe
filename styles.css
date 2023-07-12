@@ -1,0 +1,54 @@
+body {
+    display: grid;
+}
+
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    justify-self: center;
+    align-self: center;
+
+}
+
+.box {
+    border: solid black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+}
+
+.players {
+    justify-self: center;
+    display: flex;
+    gap: 100px;
+}
+
+.header {
+    display: grid;
+}
+
+.header h1 {
+    justify-self: center;
+}
+
+.active {
+    color: green;
+}
+
+.restart-button {
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    justify-self: center;
+    font-size: 2em;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.results {
+    font-size: 2em;
+    justify-self: center;
+}
